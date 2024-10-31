@@ -1,0 +1,144 @@
+.between {
+    padding: 10px;
+    margin: 20px;
+
+
+    &__text {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+.self {
+    &__upper {
+        color: $color ;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    &__back {
+        color: $color-dark;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 80px;
+    }
+}
+
+.all {
+    &__shad {
+        :hover {
+         
+            box-shadow: 4px 20px 20px 4px $back-dark;
+         }
+    }
+   
+    &__img {
+       
+        background-image: url(../imges/list-1.jpg.webp);
+        min-height: 300px;
+        background-size: contain;
+        background-position: center;
+     
+    }
+
+    &__backing {
+        background-color: $white;
+        display: grid;
+        margin-top: -25px;
+
+        &__flexing
+        {
+display: flex;
+justify-content: center;
+
+        }
+        &__cover {
+            background-color: $color;
+            height: 45px;
+            width: 45px;
+            border-radius: 50%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-top: -30px;
+          
+            & img {
+                display: flex;
+                justify-content: center;
+                width: 70%;
+                height: 70%;
+                box-shadow: 2px 20px 50px 20px rgb(255, 255, 255);
+                
+            }
+        }
+
+
+    }
+}
+hr {
+    margin: 20px;
+}
+.tety{
+    margin-top: 20px;
+    
+    &__color{
+        color: $color;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: grid;
+        justify-content: center;
+        &__tern{
+        font-size: 12px;
+        display: grid;
+        justify-content: center;
+        }
+    }
+    & h3 {
+        color: $back-dark;
+        display: grid;
+        justify-content: center;
+    }
+    
+}
+
+.foot{
+padding: 0px 20px 20px 20px;
+display: flex;
+justify-content: space-between;
+& p {
+    font-size: 12px;
+}
+}
+.bor{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: $color-text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img {
+        width: 20px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    & :hover {
+        background-color: $back;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+}
+.lo {
+    display: flex;
+justify-content: center;
+gap: 5px;
+}
+.distance{
+    margin: -50px 0px 70px 0px;
+}
