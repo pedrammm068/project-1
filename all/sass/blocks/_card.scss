@@ -1,0 +1,106 @@
+
+
+.card {
+    display: block;
+    padding: 20px;
+
+    &__box {
+        background-color: $white;
+        margin: -50px 0px 50px 0px;
+        text-align: center;
+        width: 100%;
+& :hover {
+    background-color: $back;
+    & h2 {
+        color: $white;
+    }
+    & img {
+     background-color: $white;
+    }
+
+}
+        & h2 {
+            color: $color-text;
+        }
+
+        &__border {
+            display: flex;
+            background-color: $shiri ;
+            margin-left: 170px;
+            margin-right: 242px;
+            padding-top: 2px;
+            align-items: center;
+            gap: 15px;
+            border-radius: 6px;
+        }
+
+        & p {
+            text-transform: uppercase;
+        }
+    }
+
+    &__padd {
+        padding: 25px 0px 40px 0px;
+    }
+
+    &__reding {
+        background-color: $back;
+        margin: 0px 0px 70px 0px;
+        text-align: center;
+        width: 100%;
+
+        & h2 {
+            color: $white;
+        }
+
+        &__border {
+            display: flex;
+            background-color: $white ;
+            align-items: center;
+            padding: 0px 10px 0px 0px;
+            margin: 0px -10px 0px 0px;
+
+            gap: 15px;
+            border-radius: 6px;
+
+        }
+
+    }
+}
+
+.box {
+    &__border {
+        color: $color;
+
+    }
+
+    &__para {
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+@media (min-width: 760px) {
+    .card{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+
+    }
+    .card-top{
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+    }
+    .card-bottom{
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+    }
+    .card-pading{
+        width: 20%;
+    }
+    .card__box{
+        width: 80%;
+    }
+}
+ 

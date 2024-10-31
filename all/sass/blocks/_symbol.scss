@@ -1,0 +1,144 @@
+
+.symbol {
+    background-color: $back-dark ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__flex__dir {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+
+    }
+
+    &__dir__logo {
+        padding-top: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: block;
+
+    }
+
+    &__logo__para {
+        color: $color1;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+
+
+    }
+}
+
+.dir {
+    display: block;
+
+    &__para {
+        display: block;
+        font-size: 11px;
+        color: $color1;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.icon {
+    display: flex;
+    padding-right: 10px;
+    position: relative;
+
+    &__para {
+        color: $color1 ;
+        font-size: 15px;
+        display: flex;
+
+        &__list {
+         display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding-top: 20px;
+            background-color: $back-dark;
+          list-style-type: none;
+          & li {
+            padding: 0px 0px 10px 0px;
+          margin: 2px;
+font-size: 15px;
+color: $color1;
+font-weight: 600;
+          }
+        }
+
+    }
+
+    &:hover .icon__para__list {
+        display: block;
+        @media (min-width:760px) {
+            display: none;
+        }
+    }
+}
+.none{
+    display: none;
+    
+
+}
+.home{
+    display: none;
+}
+.border{
+    display: none;
+}
+@media ( min-width: 760px){
+.symbol{
+    background-image: url(../imges/bg_1.jpg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 20px 80px;
+   
+}
+.symbol__flex{
+    display: flex;
+}
+
+.icon__para{
+    display: none;
+}
+.icon{
+    padding: 20px;
+}
+.home{
+    display: flex;
+    padding-right: 170px;
+    &__dir{
+        display: flex;
+        gap: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        &__para{
+            color: $color1;
+        }
+    }
+}
+.border{
+    display: flex;
+    background-color: $back;
+    border-radius: 8px;
+    &__add{
+        padding: 8px 10px 5px 12px;
+        color: $color1;
+    }
+    
+}
+}
+
