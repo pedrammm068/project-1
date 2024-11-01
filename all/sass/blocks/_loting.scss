@@ -1,0 +1,99 @@
+.lot{
+    margin-top: 150px;
+padding: 10px;
+padding-bottom: 100px;
+
+
+    &__on{
+background-color: $back;
+background-image: linear-gradient(129deg, $back 25%, #f03943 25%, #f03943 50%, #f13944 50%, $back 75%, #f03943 75%, $color 100%);
+height: 300px;
+    }
+}
+.oning{
+
+  padding-left: 20px;
+  padding-bottom: 18rem;
+    &__hing{
+        color: $white;
+        font-weight: 600;
+       
+    }
+    &__h{
+        color: $white;
+        font-weight: 500;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    &__p{
+background-color: $back-dark;
+padding: 14px;
+border-radius: 8px;
+width: 50%;
+
+
+& p {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+    }
+}
+.back-img{
+    background-image: url(../imges/intro.jpg.webp);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+@media (min-width: 760px) {
+    .lot{
+       padding-left: 100px;
+        display: flex;
+    }
+    .oning{
+        display: flex;
+   justify-content: space-between;
+
+        &__p{
+            background-color: $back-dark;
+            padding: 16px;
+            border-radius: 8px;
+            width: 50%;
+            
+            & p {
+                color: $white;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+            }
+                }
+
+    }
+.back-img{
+    width: 400px;
+    display: flex;
+}
+.gv{
+display: flex;
+flex-direction: column;
+}
+.gr{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+.gvgr{
+    display: flex;
+    
+}
+
+}
