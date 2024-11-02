@@ -719,15 +719,13 @@ hr {
     padding-left: 100px;
     display: flex;
   }
-  .oning {
-    display: flex;
-    justify-content: space-between;
-  }
   .oning__p {
     background-color: #151c26;
     padding: 16px;
     border-radius: 8px;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   .oning__p p {
     color: rgb(255, 255, 255);

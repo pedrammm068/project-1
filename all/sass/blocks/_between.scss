@@ -29,38 +29,43 @@
 .all {
     padding-bottom: 20px;
     padding-top: 40px;
+
     &__shad {
         padding-top: 20px;
+
         :hover {
-         
+
             box-shadow: 4px 20px 20px 4px $back-dark;
-         }
+        }
     }
-    &__i{
+
+    &__i {
         background-image: url(../imges/list-2.jpg);
         min-height: 300px;
         background-size: cover;
         background-position: center;
     }
-    &__im{
-background-image: url(../imges/list-3.jpg);
+
+    &__im {
+        background-image: url(../imges/list-3.jpg);
         min-height: 300px;
         background-size: cover;
         background-position: center;
     }
-   
+
     &__img {
-       
+
         background-image: url(../imges/list-1.jpg.webp);
         min-height: 300px;
         background-size: cover;
         background-position: center;
-     
+
     }
-    &__imges{
+
+    &__imges {
         background-image: url(../imges/list-11.jpg);
         min-height: 300px;
-        background-size: cover ;
+        background-size: cover;
         background-position: center;
     }
 
@@ -69,12 +74,12 @@ background-image: url(../imges/list-3.jpg);
         display: grid;
         margin-top: -25px;
 
-        &__flexing
-        {
-display: flex;
-justify-content: center;
+        &__flexing {
+            display: flex;
+            justify-content: center;
 
         }
+
         &__cover {
             background-color: $back;
             height: 45px;
@@ -84,56 +89,62 @@ justify-content: center;
             display: flex;
             justify-content: center;
             margin-top: -30px;
-          
+
             & img {
                 display: flex;
                 justify-content: center;
                 width: 70%;
                 height: 70%;
                 box-shadow: 2px 20px 50px 20px rgb(255, 255, 255);
-                
+
             }
         }
 
 
     }
 }
+
 hr {
     margin: 20px;
 }
-.tety{
+
+.tety {
     margin-top: 20px;
-    
-    &__color{
+
+    &__color {
         color: $color;
         font-size: 12px;
         font-weight: 700;
         text-transform: uppercase;
         display: grid;
         justify-content: center;
-        &__tern{
-        font-size: 12px;
-        display: grid;
-        justify-content: center;
+
+        &__tern {
+            font-size: 12px;
+            display: grid;
+            justify-content: center;
         }
     }
+
     & h3 {
         color: $back-dark;
         display: grid;
         justify-content: center;
     }
-    
+
 }
 
-.foot{
-padding: 0px 20px 20px 20px;
-display: flex;
-justify-content: space-between;
-& p {
-    font-size: 12px;
+.foot {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    & p {
+        font-size: 12px;
+    }
 }
-}
-.bor{
+
+.bor {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -141,12 +152,14 @@ justify-content: space-between;
     display: flex;
     justify-content: center;
     align-items: center;
+
     & img {
         width: 20px;
         display: flex;
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
+        align-items: center;
     }
+
     & :hover {
         background-color: $back;
         height: 30px;
@@ -154,121 +167,141 @@ justify-content: space-between;
         border-radius: 50%;
     }
 }
+
 .lo {
     display: flex;
-justify-content: center;
-gap: 5px;
+    justify-content: center;
+    gap: 5px;
 }
-.distance{
+
+.distance {
     margin: -50px 0px 70px 0px;
 }
+
 @media (min-width: 760px) {
-    .srv{
+    .srv {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .srs{
+
+    .srs {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 20px;
     }
-       .all{
+
+    .all {
         padding: 0;
         gap: 20px;
-      
-&__img{
-    width: 275px;
 
-}
-&__i{
-    width: 275px;
- 
-}
-&__im{
-    width: 275px;
-  
-}
-&__imges {
-    width: 275px;
-}
-&__img1{
-    width: 275px;
+        &__img {
+            width: 275px;
 
-}
-&__i2{
-    width: 275px;
+        }
 
-}
-&__im3{
-    width: 275px;
+        &__i {
+            width: 275px;
 
-}
-&__imges4{
-    width: 275px;
+        }
 
-}
-&__img5{
-    width: 275px;
+        &__im {
+            width: 275px;
 
-}
-&__i6{
-    width: 275px;
+        }
 
-}
-&__im7{
-    width: 275px;
+        &__imges {
+            width: 275px;
+        }
 
-}
-&__imges8{
-    width: 275px;
+        &__img1 {
+            width: 275px;
 
-}
-}
+        }
 
+        &__i2 {
+            width: 275px;
 
-.self {
-    &__upper {
-        color: $color ;
-        text-transform: uppercase;
-        font-weight: 600;
-        text-align: center;
-        font-size: 14px;
+        }
+
+        &__im3 {
+            width: 275px;
+
+        }
+
+        &__imges4 {
+            width: 275px;
+
+        }
+
+        &__img5 {
+            width: 275px;
+
+        }
+
+        &__i6 {
+            width: 275px;
+
+        }
+
+        &__im7 {
+            width: 275px;
+
+        }
+
+        &__imges8 {
+            width: 275px;
+
+        }
     }
 
-    &__back {
-        color: $color-dark;
-        text-transform: capitalize;
-        font-weight: 600;
-        font-size: 40px;
-        margin-bottom: 80px;
+
+    .self {
+        &__upper {
+            color: $color ;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        &__back {
+            color: $color-dark;
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: 40px;
+            margin-bottom: 80px;
+        }
     }
-}
 
 
 
 }
-.all{
-    &__img1{
-background-image: url(../imges/list-5.jpg.webp);
-min-height: 300px;
-background-size: cover;
-background-position: center;
+
+.all {
+    &__img1 {
+        background-image: url(../imges/list-5.jpg.webp);
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
     }
-    &__i2{
-background-image: url(../imges/list-6.jpg);
-min-height: 300px;
-background-size: cover;
-background-position: center;
+
+    &__i2 {
+        background-image: url(../imges/list-6.jpg);
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
     }
-    &__im3{
-background-image: url(../imges/list-7.jpg);
-min-height: 300px;
-background-size: cover;
-background-position: center;
+
+    &__im3 {
+        background-image: url(../imges/list-7.jpg);
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
     }
-    &__imges4{
+
+    &__imges4 {
         background-image: url(../imges/list-8.jpg);
         min-height: 300px;
         background-size: cover;
@@ -278,34 +311,31 @@ background-position: center;
 
 
 
-    &__img5{
+    &__img5 {
         background-image: url(../imges/list-9.jpg);
         min-height: 300px;
         background-size: cover;
         background-position: center;
-            }
-            &__i6{
+    }
+
+    &__i6 {
         background-image: url(../imges/list-10.jpg);
         min-height: 300px;
         background-size: cover;
         background-position: center;
-            }
-            &__im7{
+    }
+
+    &__im7 {
         background-image: url(../imges/image_1.jpg);
         min-height: 300px;
         background-size: cover;
         background-position: center;
-            }
-            &__imges8{
-                background-image: url(../imges/list-12.jpg);
-                min-height: 300px;
-                background-size: cover;
-                background-position: center;
-            }
+    }
+
+    &__imges8 {
+        background-image: url(../imges/list-12.jpg);
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
 }
-
-
-       
-    
-
-
