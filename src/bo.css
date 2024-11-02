@@ -1,0 +1,70 @@
+body {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    background-color: #f0f4f7 ;
+}
+.back-img {
+    background-image: url(../all/sass/imges/bg_3.jpg);
+    height: 100%;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+
+}
+.ccim{
+    background-image: url(../all/sass/imges/image_2.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.cci{
+    background-image: url(../all/sass/imges/image_3.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.ccimm{
+    background-image: url(../all/sass/imges/image_4.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.cc{
+    background-image: url(../all/sass/imges/image_5.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.cim{
+    background-image: url(../all/sass/imges/image_6.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.sim{
+    background-image: url(../all/sass/imges/image_7.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.simm{
+    background-image: url(../all/sass/imges/image_8.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.iop{
+    background-image: url(../all/sass/imges/about.jpg);
+    min-height: 300px;
+background-size: cover;
+background-position: center;
+}
+.sma{
+    background-image: url(../all/sass/imges/bg_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 20px 80px;
+}
